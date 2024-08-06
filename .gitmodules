@@ -5,5 +5,8 @@
 	path = personal/personal
 	url = https://github.com/jmutton2/personal.git
 [submodule "vaults"]
+	path = vaults
+	url = https://github.com/jmutton2/vaults.git
+[submodule "vaults/vaults"]
 	path = vaults/vaults
 	url = https://github.com/jmutton2/vaults.git
