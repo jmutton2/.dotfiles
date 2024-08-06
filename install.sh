@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-declare -a stow_dirs=("nvim" "personal" "i3")
+declare -a stow_dirs=("nvim" "personal" "i3" "vaults")
 
 ## now loop through the above array
 for i in "${stow_dirs[@]}"
