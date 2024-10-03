@@ -1,12 +1,9 @@
 [submodule "nvim/.config/nvim"]
 	path = nvim/.config/nvim
-	url = https://github.com/jmutton2/nvim.git
+	url = git@github.com:jmutton2/nvim.git
 [submodule "personal/personal"]
 	path = personal/personal
-	url = https://github.com/jmutton2/personal.git
-[submodule "vaults"]
-	path = vaults
-	url = https://github.com/jmutton2/vaults.git
+	url = git@github.com:jmutton2/personal.git
 [submodule "vaults/vaults"]
 	path = vaults/vaults
-	url = https://github.com/jmutton2/vaults.git
+	url = git@github.com:jmutton2/nvim.git
