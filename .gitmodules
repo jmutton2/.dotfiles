@@ -6,4 +6,4 @@
 	url = git@github.com:jmutton2/personal.git
 [submodule "vaults/vaults"]
 	path = vaults/vaults
-	url = git@github.com:jmutton2/nvim.git
+	url = git@github.com:jmutton2/vaults.git

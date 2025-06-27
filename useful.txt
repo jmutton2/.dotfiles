@@ -1,0 +1,26 @@
+INSTALL NEOVIM
+sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo apt-get update
+sudo apt-get install neovim
+
+INSTALL TMUX
+sudo apt install tmux
+
+INSTALL GIT
+sudo apt install git
+
+INSTALL RIPGREP
+sudo apt-get install ripgrep
+
+INSTALL I3
+sudo apt update
+sudo apt install i3
+
+INSTALL GOLANG
+Download tar from site
+rm -rf /usr/local/go && tar -C /usr/local -xzf go1.23.2.linux-amd64.tar.gz
+export PATH=$PATH:/usr/local/go/bin
+go version
+
+INSTALL NODE
+

@@ -191,3 +191,13 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+exec --no-startup-id xrandr --output DP-2 --mode 3440x1440 --rate 144
+
+bindsym $mod+o exec --no-startup-id /home/jacob/.config/i3/scripts/sink-switch.sh --headphones
+bindsym $mod+Shift+o exec --no-startup-id /home/jacob/.config/i3/scripts/sink-switch.sh --speakers
+
+bindsym $mod+p exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
+
+# Lat/Long
+exec --no-startup-id redshift -l 43.6532:79.3832
